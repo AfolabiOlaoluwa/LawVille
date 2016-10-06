@@ -1,0 +1,37 @@
+<div class="body-site"></div>
+<%= render 'shared/two_breaks' %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <strong class="text-center", style="font-weight: bold; font-size:20px;">STEP 1 (OF 3): CREATE LAWYER'S DETAILS</strong>
+      <%= simple_form_for(@lawyer, html: { class: 'form-horizontal' }) do |f| %><br>
+          <%= f.input :image, label: "Lawyer's Image",  as: :file %><br>
+          <div>
+            <% if f.object.image? %>
+                <p><%= image_tag f.object.image.thumb.url %></p>
+                <%= f.check_box :remove_image %>
+                <label style="font-size: 17px;">
+                  Check the box to remove image
+                </label>
+            <% end %>
+          </div>
+          <br>
+          <%= f.input :name, label: "Name" %><br>
+          <%= f.input :title, label: "What's the Layer's title?", placeholder: 'e.g. Criminal Lawyer' %><br>
+          <%= f.input :email, label: "Lawyer's Email", placeholder: 'stevehr@mybusiness.com'%><br>
+          <%= f.input :phone_number, label: "Lawyer's Phone Number", placeholder: '+1 (XXX)-XXX-XXXX' %><br>
+          <%= f.input :website, label: "Lawyer's Website.", placeholder: 'https://www.mybusiness.com/jobs' %><br>
+          <%= f.input :twitter_link, label: "Lawyer's Twitter Handle.", placeholder: 'https://www.mybusiness.com/jobs' %><br>
+          <%= f.input :linkedin_link, label: "Lawyer's Linkedin Handle.", placeholder: 'https://www.mybusiness.com/jobs' %><br>
+          <div class="form-horizontal form-group">
+          <%= f.select :category_id, options_from_collection_for_select(Category.all, :id, :name), {prompt: 'Choose Category or Subcategory'}, {class: 'form-control'} %>
+          </div>
+          <br>
+          <%#= f.collection_select :category_id, Category.all, :id, :name, {prompt: 'Choose Category or Subcategory'}, input_html: {required: 'true', autofocus: 'true', class: 'form-control'} %><br><br>
+          <%= f.input :professional_details, label: "Lawyer's Professional Details", input_html: {:class => 'redactor', :rows => 500, :cols => 120} %><br>
+          <%= f.button :submit, 'Continue to Step 2 to preview your ad', class: 'btn btn-success btn-md left' %><br>
+      <% end %>
+    </div>
+  </div>
+</div>
+<%= render 'shared/two_breaks' %>

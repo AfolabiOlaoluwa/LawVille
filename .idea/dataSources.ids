@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails LawVille: development" uuid="04e8721f-71cc-41b4-8321-ad530ea97375">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+      <schema id="1">
+        <visible>1</visible>
+      </schema>
+      <table id="2" parent="1" name="categories"/>
+      <table id="3" parent="1" name="lawyers"/>
+      <table id="4" parent="1" name="payola_affiliates"/>
+      <table id="5" parent="1" name="payola_coupons"/>
+      <table id="6" parent="1" name="payola_sales"/>
+      <table id="7" parent="1" name="payola_stripe_webhooks"/>
+      <table id="8" parent="1" name="payola_subscriptions"/>
+      <table id="9" parent="1" name="redactor_assets"/>
+      <table id="10" parent="1" name="schema_migrations"/>
+      <table id="11" parent="1" name="sqlite_sequence"/>
+      <table id="12" parent="1" name="users"/>
+      <column id="13" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="14" parent="2" name="name">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="15" parent="2" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="16" parent="2" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="17" parent="2" name="parent_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <key id="18" parent="2">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="19" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="20" parent="3" name="name">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="21" parent="3" name="image">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="22" parent="3" name="title">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="23" parent="3" name="email">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="24" parent="3" name="phone_number">
+        <data-type>INTEGER(8)(0,-1)|4</data-type>
+      </column>
+      <column id="25" parent="3" name="professional_details">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="26" parent="3" name="website">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="27" parent="3" name="twitter_link">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="28" parent="3" name="linkedin_link">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="29" parent="3" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="30" parent="3" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="31" parent="3" name="category_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="32" parent="3" name="token">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="33" parent="3" name="published">
+        <data-type>BOOLEAN(0,-1)|4</data-type>
+      </column>
+      <index id="34" parent="3" name="index_lawyers_on_name">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="35" parent="3" name="index_lawyers_on_email">
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="36" parent="3" name="index_lawyers_on_phone_number">
+        <columns>phone_number</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="37" parent="3" name="index_lawyers_on_category_id">
+        <columns>category_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="38" parent="3" name="index_lawyers_on_token">
+        <columns>token</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="39" parent="3" name="index_lawyers_on_published">
+        <columns>published</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="40" parent="3">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="41" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="42" parent="4" name="code">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="43" parent="4" name="email">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="44" parent="4" name="percent">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="45" parent="4" name="created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="46" parent="4" name="updated_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <key id="47" parent="4">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="48" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="49" parent="5" name="code">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="50" parent="5" name="percent_off">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="51" parent="5" name="created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="52" parent="5" name="updated_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="53" parent="5" name="active">
+        <data-type>BOOLEAN(0,-1)|4</data-type>
+        <default-expression>&apos;t&apos;</default-expression>
+      </column>
+      <key id="54" parent="5">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="55" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="56" parent="6" name="email">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="57" parent="6" name="guid">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="58" parent="6" name="product_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="59" parent="6" name="product_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="60" parent="6" name="created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="61" parent="6" name="updated_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="62" parent="6" name="state">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="63" parent="6" name="stripe_id">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="64" parent="6" name="stripe_token">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="65" parent="6" name="card_last4">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="66" parent="6" name="card_expiration">
+        <data-type>DATE(0,-1)|12</data-type>
+      </column>
+      <column id="67" parent="6" name="card_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="68" parent="6" name="error">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="69" parent="6" name="amount">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="70" parent="6" name="fee_amount">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="71" parent="6" name="coupon_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="72" parent="6" name="opt_in">
+        <data-type>BOOLEAN(0,-1)|4</data-type>
+      </column>
+      <column id="73" parent="6" name="download_count">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="74" parent="6" name="affiliate_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="75" parent="6" name="customer_address">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="76" parent="6" name="business_address">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="77" parent="6" name="stripe_customer_id">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="78" parent="6" name="currency">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="79" parent="6" name="signed_custom_fields">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="80" parent="6" name="owner_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="81" parent="6" name="owner_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <index id="82" parent="6" name="index_payola_sales_on_email">
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="83" parent="6" name="index_payola_sales_on_guid">
+        <columns>guid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="84" parent="6" name="index_payola_sales_on_product">
+        <columns>product_id
+product_type</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="85" parent="6" name="index_payola_sales_on_coupon_id">
+        <columns>coupon_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="86" parent="6" name="index_payola_sales_on_stripe_customer_id">
+        <columns>stripe_customer_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="87" parent="6" name="index_payola_sales_on_owner_id_and_owner_type">
+        <columns>owner_id
+owner_type</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="88" parent="6">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="89" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="90" parent="7" name="stripe_id">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="91" parent="7" name="created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="92" parent="7" name="updated_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <key id="93" parent="7">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="94" parent="8" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="95" parent="8" name="plan_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="96" parent="8" name="plan_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="97" parent="8" name="start">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="98" parent="8" name="status">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="99" parent="8" name="owner_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="100" parent="8" name="owner_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="101" parent="8" name="stripe_customer_id">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="102" parent="8" name="cancel_at_period_end">
+        <data-type>BOOLEAN(0,-1)|4</data-type>
+      </column>
+      <column id="103" parent="8" name="current_period_start">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="104" parent="8" name="current_period_end">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="105" parent="8" name="ended_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="106" parent="8" name="trial_start">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="107" parent="8" name="trial_end">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="108" parent="8" name="canceled_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="109" parent="8" name="quantity">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="110" parent="8" name="stripe_id">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="111" parent="8" name="stripe_token">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="112" parent="8" name="card_last4">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="113" parent="8" name="card_expiration">
+        <data-type>DATE(0,-1)|12</data-type>
+      </column>
+      <column id="114" parent="8" name="card_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="115" parent="8" name="error">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="116" parent="8" name="state">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="117" parent="8" name="email">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="118" parent="8" name="created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="119" parent="8" name="updated_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="120" parent="8" name="currency">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="121" parent="8" name="amount">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="122" parent="8" name="guid">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="123" parent="8" name="stripe_status">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="124" parent="8" name="affiliate_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="125" parent="8" name="coupon">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="126" parent="8" name="signed_custom_fields">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="127" parent="8" name="customer_address">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="128" parent="8" name="business_address">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="129" parent="8" name="setup_fee">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <index id="130" parent="8" name="index_payola_subscriptions_on_guid">
+        <columns>guid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="131" parent="8">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="132" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="133" parent="9" name="data_file_name">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="134" parent="9" name="data_content_type">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="135" parent="9" name="data_file_size">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="136" parent="9" name="assetable_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="137" parent="9" name="assetable_type">
+        <data-type>VARCHAR(30)(0,-1)|12</data-type>
+      </column>
+      <column id="138" parent="9" name="type">
+        <data-type>VARCHAR(30)(0,-1)|12</data-type>
+      </column>
+      <column id="139" parent="9" name="width">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="140" parent="9" name="height">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="141" parent="9" name="created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="142" parent="9" name="updated_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <index id="143" parent="9" name="idx_redactor_assetable">
+        <columns>assetable_type
+assetable_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="144" parent="9" name="idx_redactor_assetable_type">
+        <columns>assetable_type
+type
+assetable_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="145" parent="9">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="146" parent="10" name="version">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <index id="147" parent="10" name="unique_schema_migrations">
+        <columns>version</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <column id="148" parent="11" name="name">
+        <data-type>(0,-1)|12</data-type>
+      </column>
+      <column id="149" parent="11" name="seq">
+        <data-type>(0,-1)|12</data-type>
+      </column>
+      <column id="150" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="151" parent="12" name="email">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="152" parent="12" name="encrypted_password">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="153" parent="12" name="reset_password_token">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="154" parent="12" name="reset_password_sent_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="155" parent="12" name="remember_created_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="156" parent="12" name="sign_in_count">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="157" parent="12" name="current_sign_in_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="158" parent="12" name="last_sign_in_at">
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="159" parent="12" name="current_sign_in_ip">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="160" parent="12" name="last_sign_in_ip">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="161" parent="12" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="162" parent="12" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <index id="163" parent="12" name="index_users_on_email">
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="164" parent="12" name="index_users_on_reset_password_token">
+        <columns>reset_password_token</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="165" parent="12">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="test" uuid="557dbcfa-922b-4fbb-9f99-d04c8df39fc1">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+      <schema id="1">
+        <visible>1</visible>
+      </schema>
+      <table id="2" parent="1" name="categories"/>
+      <table id="3" parent="1" name="lawyers"/>
+      <table id="4" parent="1" name="schema_migrations"/>
+      <table id="5" parent="1" name="sqlite_sequence"/>
+      <column id="6" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="7" parent="2" name="name">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="8" parent="2" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="9" parent="2" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="10" parent="2" name="parent_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <key id="11" parent="2">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="12" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="13" parent="3" name="name">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="14" parent="3" name="image">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="15" parent="3" name="title">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="16" parent="3" name="email">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="17" parent="3" name="phone_number">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="18" parent="3" name="professional_details">
+        <data-type>TEXT(0,-1)|12</data-type>
+      </column>
+      <column id="19" parent="3" name="website">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="20" parent="3" name="twitter_link">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="21" parent="3" name="linkedin_link">
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <column id="22" parent="3" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="23" parent="3" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(0,-1)|12</data-type>
+      </column>
+      <column id="24" parent="3" name="category_id">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <index id="25" parent="3" name="index_lawyers_on_name">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="26" parent="3" name="index_lawyers_on_email">
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="27" parent="3" name="index_lawyers_on_phone_number">
+        <columns>phone_number</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="28" parent="3" name="index_lawyers_on_category_id">
+        <columns>category_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="29" parent="3">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="30" parent="4" name="version">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(0,-1)|12</data-type>
+      </column>
+      <index id="31" parent="4" name="unique_schema_migrations">
+        <columns>version</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <column id="32" parent="5" name="name">
+        <data-type>(0,-1)|12</data-type>
+      </column>
+      <column id="33" parent="5" name="seq">
+        <data-type>(0,-1)|12</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

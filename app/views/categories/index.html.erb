@@ -1,0 +1,13 @@
+<% Category.top_level.each do |cat| %>
+    <div><%= cat.name %></div>
+    <% cat.sub_categories.each do |subcat| %>
+        <ul>
+          <%= subcat.name %>
+          <ul>
+            <li>
+              <%= subcat.lawyers.name %>
+            </li>
+          </ul>
+        </ul>
+    <% end %>
+<% end %>

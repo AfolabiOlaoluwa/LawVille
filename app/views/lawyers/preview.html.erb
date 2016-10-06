@@ -1,0 +1,30 @@
+<%= render 'shared/two_breaks' %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <p class="text-center"><strong style="font-weight: bold; font-size:20px;">STEP 2 (OF 3): PREVIEW YOUR AD</strong></p>
+      <%= render 'shared/two_breaks' %>
+    </div>
+  </div>
+</div>
+
+<%= render 'shared/display_lawyer' %>
+<%= render 'shared/two_breaks' %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <%= simple_form_for(@lawyer, url: lawyer_path( token: @lawyer.token ), html: { class: 'form-horizontal' }) do |f| %><br>
+          <%= f.hidden_field :published, value: true %>
+          <%= f.submit value: 'Publish', class: 'btn btn-success btn-md' %>
+          <%= link_to 'Error! Make Changes', edit_lawyer_path, class: 'btn btn-danger btn-md' %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<%= render 'shared/three_breaks' %>
+<br>
+<br>
+<%#= render 'shared/four_breaks' %>
+

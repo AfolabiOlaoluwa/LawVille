@@ -1,0 +1,75 @@
+<!--<div class= "hero-image"></div>-->
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2><%= @lawyer.name %></h2>
+        <h6><%= @lawyer.title %></h6>
+      </div>
+      <br>
+    </div>
+  </div>  <!-- /.container -->
+</div><!-- /.banner -->
+
+<%= render 'shared/three_breaks' %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+        <%= image_tag @lawyer.image.thumb.url %>
+    </div>
+
+    <div class="col-lg-9 panelme">
+        <h3 class="job-title-style"><%= @lawyer.name %></h3>
+
+        <p class="job-company-style">
+          <span class="glyphicon glyphicon-th-large" aria-hidden="true" style="display: inline;"></span>
+          <strong>Title:</strong>
+          <%= @lawyer.title %>
+        </p>
+
+        <p class="job-location-style">
+          <span class="glyphicon glyphicon-map-marker" aria-hidden="true" style="display: inline;"></span>
+          <strong>Phone Number:</strong>
+          <%= @lawyer.phone_number %>
+        </p>
+
+        <p class="job-location-style">
+          <span class="glyphicon glyphicon-map-marker" aria-hidden="true" style="display: inline;"></span>
+          <strong>Email:</strong>
+          <%= @lawyer.email %>
+        </p>
+
+        <p class="job-site-style">
+          <span class="glyphicon glyphicon-link" aria-hidden="true" style="display: inline;"></span>
+          <strong>Website:</strong>
+          <a href="<%= @lawyer.website %>" target="_blank"><%= @lawyer.website %></a>
+        </p>
+      <p class="job-site-style">
+          <span class="glyphicon glyphicon-link" aria-hidden="true" style="display: inline;"></span>
+          <strong>Website:</strong>
+          <a href="<%= @lawyer.website %>" target="_blank"><%= @lawyer.website %></a>
+        </p>
+      <p class="job-site-style">
+          <span class="glyphicon glyphicon-link" aria-hidden="true" style="display: inline;"></span>
+          <strong>Website:</strong>
+          <a href="<%= @lawyer.website %>" target="_blank"><%= @lawyer.website %></a>
+        </p>
+
+
+    </div>
+
+  </div>
+
+  <%= render 'shared/two_breaks' %>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <%= @lawyer.professional_details.html_safe %>
+    </div>
+  </div>
+
+</div>
+
+<%#= render 'shared/three_breaks' %>
+

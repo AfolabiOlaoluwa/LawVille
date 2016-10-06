@@ -1,0 +1,83 @@
+<%#
+# Form Partial
+
+This partial is rendered on a resource's `new` and `edit` pages,
+and renders all form fields for a resource's editable attributes.
+
+## Local variables:
+
+- `page`:
+  An instance of [Administrate::Page::Form][1].
+  Contains helper methods to display a form,
+  and knows which attributes should be displayed in the resource's form.
+
+[1]: http://www.rubydoc.info/gems/administrate/Administrate/Page/Form
+%>
+
+<%= simple_form_for([namespace, page.resource], html: { class: "form" }) do |f| %>
+  <% if page.resource.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(page.resource.errors.count, "error") %>
+        prohibited this <%= page.resource_name %> from being saved:
+      </h2>
+
+      <ul>
+        <% page.resource.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%# page.attributes.each do |attribute| -%>
+    <!--<div class="field-unit field-unit&#45;&#45;<%#= attribute.html_class %>">-->
+      <%#= render_field attribute, f: f %>
+    <!--</div>-->
+  <%# end -%>
+
+
+  <!--<div class="form-actions">-->
+    <!--<%#= f.submit %>-->
+  <!--</div>-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+  <div>
+    <%= f.input :image, label: "Lawyer's Image",  as: :file %><br>
+    <div>
+      <% if f.object.image? %>
+          <p><%= image_tag f.object.image.thumb.url %></p>
+          <%= f.check_box :remove_image %>
+          <label style="font-size: 17px;">
+            Check the box to remove image
+          </label>
+      <% end %>
+    </div>
+    <%= f.input :name, label: "Name" %><br>
+    <%= f.input :title, label: "What's the Layer's title?", placeholder: 'e.g. Criminal Lawyer' %><br>
+    <%= f.input :email, label: "Lawyer's Email", placeholder: 'stevehr@mybusiness.com'%><br>
+    <%= f.input :phone_number, label: "Lawyer's Phone Number", placeholder: '+1 (XXX)-XXX-XXXX' %><br>
+    <%= f.input :website, label: "Lawyer's Website.", placeholder: 'https://www.mybusiness.com/jobs' %><br>
+    <%= f.input :twitter_link, label: "Lawyer's Twitter Handle.", placeholder: 'https://www.mybusiness.com/jobs' %><br>
+    <%= f.input :linkedin_link, label: "Lawyer's Linkedin Handle.", placeholder: 'https://www.mybusiness.com/jobs' %><br>
+    <div class="form-horizontal form-group">
+      <%= f.select :category_id, options_from_collection_for_select(Category.all, :id, :name), {prompt: 'Choose Category or Subcategory'}, {class: 'form-control'} %>
+    </div>
+    <br>
+    <%#= f.collection_select :category_id, Category.all, :id, :name, {prompt: 'Choose Category or Subcategory'}, input_html: {required: 'true', autofocus: 'true', class: 'form-control'} %><br><br>
+    <%= f.input :professional_details, label: "Lawyer's Professional Details", input_html: {:class => 'redactor', :rows => 500, :cols => 120} %><br>
+    <%= f.check_box :published %>
+    <label style="font-size: 17px;">
+      Publish This Lawyer.
+    </label><br>
+
+    <%= f.button :submit, 'Create Lawyer', class: 'btn btn-success btn-md left' %>
+
+    <%= render 'shared/two_breaks' %>
+  </div>
+          </div>
+        </div>
+      </div>
+<% end %>

@@ -1,0 +1,40 @@
+<div class="body-site"></div>
+<div class="container">
+  <div class="row">
+    <strong style="font-weight: bold; font-size:20px;"><p align="center">Create Categories and  Subcategories</p></strong><br>
+      <div class="alert alert-danger">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Note!</strong> This form can be used to create both Categories and Subcategories. To create a Subcategory, then you have to
+      choose Category where it will belong. Otherwise, just type in the Category to be created and click create button.
+      </div>
+        <div class="col-sm-12 col-xs-12">
+          <%= simple_form_for Category.new, html: { class: 'form-horizontal' } do |f| %>
+              <%= f.input :name, placeholder: 'Name' %><br>
+              <div class="form-horizontal form-group">
+                <%#= f.collection_select :parent_id, Category.top_level, :id, :name, {prompt: " "},input_html: {class: "dropdown-toggle"} %>
+                <label>Choose the Category where you want your subcategory to belongs to.</label><br>
+                <%= f.select :parent_id, options_from_collection_for_select(Category.top_level, :id, :name), {prompt: 'Choose a Category to create Subcategory'}, {class: 'form-control'} %><br>
+              </div>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <%= f.button :submit, 'Create', class: 'btn btn-success btn-md' %>
+                  </div>
+                </div>
+              </div>
+          <% end %>
+        </div>
+  </div>
+</div>
+<%= render 'shared/three_breaks' %>
+
+
+<!--This is what I used to test if Redactor is working-->
+<%#= text_area_tag :editor, "", :class => "redactor", :rows => 40, :cols => 120 %>
+<%#= f.button :submit, 'Continue to Step 2 to preview your ad', class: 'btn btn-success btn-md left' %>
+<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3">-->
+
+
+
+

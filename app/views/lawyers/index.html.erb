@@ -1,0 +1,59 @@
+<%= render 'shared/index_banner' %>
+
+<div id="top" class="#">
+  <div class="body-site"></div>
+    <div class="panel-group" id="accordion">
+      <% Category.top_level.each_with_index do |cat, index| %>
+            <div class="panel panel-default panel-group-edit">
+              <div class="panel-heading">
+                <h1 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse<%= index.to_s %>" >
+                    <span class="accordion-toggle out" aria-hidden="true"></span>
+                    <%= cat.name %>
+                  </a>
+                </h1>
+              </div>
+              <div id="collapse<%= index.to_s %>" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ul>
+                    <!--This loop goes through the lawyers belonging to the category and output just the names-->
+                    <% cat.lawyers.each do |law| %>
+                        <ul><li><%= link_to(law.name, law) %></li></ul>
+                    <% end %>
+
+                    <% cat.sub_categories.each_with_index do |subcat, index| %>
+                        <!--<li>-->
+                          <div class="#">
+                            <div class="panel-heading">
+                              <h5 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse<%= index+7564 %>" >
+                                  <!--<div id="collapse<%#= index.to_s %>" class="collapse">-->
+                                  <%= subcat.name %>
+                                    <!--</div>-->
+                                </a>
+                              </h5>
+                            </div>
+                          </div>
+                          <ul>
+                            <!--<li>-->
+                            <!--This loop goes through the lawyers belonging to the subcategories and output just the names-->
+                            <div id="collapse<%= index+7564 %>" class="panel-collapse collapse">
+                              <% subcat.lawyers.each do |law| %>
+                                  <!--<ul>-->
+                                    <li><%= link_to(law.name, law) %></li>
+                                  <!--</ul>-->
+                              <% end %>
+                            </div>
+                            <!--</li>-->
+                          </ul>
+                        <!--</li>-->
+                    <% end %>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      <% end %>
+    </div>
+</div>
+
+<%= render 'shared/three_breaks' %>
