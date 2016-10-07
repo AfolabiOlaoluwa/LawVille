@@ -15,6 +15,7 @@ require 'rolify'
 require 'simple_form'
 require 'social-share-button'
 require 'redactor-rails'
+require 'carrierwave'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
