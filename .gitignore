@@ -22,4 +22,5 @@
 
 # Environment Normalisation
 #/vendor/bundle
+/Gemfile.lock
 
