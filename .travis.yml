@@ -7,13 +7,16 @@ env:
   global:
   - secure: dY6UeC3ClCTp04p/fCLv49PNZpd/jDBX0d+pegVIFdBKMibWTIOUtHK29tMCP5WqoMmN9J0yiOT87MXDom39l6JFR6tqdxmYakAGvpube/q5jV9yVDBrCQt2LcV3kRKDGfEaErfYsNm0B1wBWvz/5NvIiMIDvY3hYXGzx78aYpf9frr+eE2TXpqx0DKzdvtOjRCXvROFSvv8Ye+FbPzyJumeiJ9PUUV41wc3OuVGKAN/zbE1vpJlozT/P3hpObtX+JQFz3gNA6Cms4A3iWO5rMVDyL1Vx6KqDFxvydYrST0bOzzgi9xb+bwBhQKfwLNbL8dJOjLapvCaxPaAgAZzHYAx8TiN0GYgo/M8vLOqQ6lN6TpDGIejh6ppXLXo5+bSWQPbFoEpurGBzT2AM/tTt6tB0U8h4Mg7W48qfb+T95KhVDmrE7BVSbLaqOVau2hqikvEXX23mLDjNMcKnWrNe00le+RZoFb9mzBcS3ims+8QmTG42dRZ6MN8fOB13vjd6+V7XgZdq8sfHeFztJvCN5kmVi9ZiFJpGEhUqkvT4bvNalw/B477PgCO//LyvRiK82WnnUayc8yW4xZHC3wgpd7TV07r1YPm8KWa3lmn3YGkSG2E/5HnZ5ELoCYFwqXKhOqWK3j69x13W07ujEZIgyaNA0dIgjdG9bItnfgxbns=
   - secure: YLeE3xVUF4yeTocXFMwnMtwp0FGmqccpYhKMM7PDcvux8MUxOGv0v5aZXpB8hoUF1TfEz1MDMl9F/ZcatooBWT+1kS3fHbiuHg18MKlJtiI7NQNYROlLmzM2i2JTAQhf4bJdCZ8lXxbb3F2Hg6dm2qGwD/CclldHQAGLDCD2fXTcjTze8ziS7xCUE91hRLNq/Ah/gbu5mjPvv7cBnZeURlTbQp+3mtrj5fYMCAwadaTXbU/Tq0ECNuZgvgwgp7ATmH+yD/XmNnqnrPapZRb84LOVsSVZ4ANgWWUDQQA73+U4tild9yg64PeAWrLl5NSF6/ycfE13FUgdWwE97vMGrhjb851aCiG2RiFaib7ko4sGq4n6gGNFr587xcJIS1jetSdebmWQcnniY7jwM635LUs1zTPamgcqhOy21sDM/uKM3FmH5T8QEiuERWUtKU/1VqMl2HmxTH3dEGY8dsHSrWP3ujHBem3r4pAZoCCiijXu3fe9FotaLu3JeeX71YqVvBs8R3a+b+d1juaCEktwvfHB/sH80usZUxjjLZS5kfKV5fsTAYCHznqC/WMUhb0irJdy3FEP7goUpoOJP+BhnulwO4lzKLjiw6uK/V2sGVpSceK5cv0WYjNIuqKVoPu8BhFDwKz0DeZvUR5o9qkvk4sW8KuxZd63IyDxlSYiNxo=
+  - DB=sqlite
+  - DB=mysql
+  - DB=postgresql
 script:
   - RAILS_ENV=test bundle exec rake db:migrate --trace
   - bundle exec rake db:test:prepare
   - bundle exec rspec spec/
 before_script:
-  - mysql -e 'create database test'
-  - psql -c 'create database production'
+  - mysql -e 'create database strano_test'
+  - psql -c 'create database strano_test' -U postgres
 #bundler_args: --binstubs=./bundler_stubs
 after_success:
 - gem install heroku
