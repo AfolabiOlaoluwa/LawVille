@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -440,7 +440,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475790719594</updated>
-      <workItem from="1475790721785" duration="4519000" />
+      <workItem from="1475790721785" duration="6375000" />
     </task>
     <task id="LOCAL-00003" summary="Edited my gitignore">
       <created>1475790833392</created>
@@ -453,7 +453,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7250000" />
+    <option name="totallyTimeSpent" value="9106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +891,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
