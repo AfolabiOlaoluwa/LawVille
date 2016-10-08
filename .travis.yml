@@ -1,8 +1,6 @@
-language: ruby
-   gem install -v 1.10.6 bundler --no-rdoc --no-ri
-   bundle _1.10.6_ install
+language: ruby gem install -v 1.10.6 bundler --no-rdoc --no-ri bundle _1.10.6_ install
 rvm:
-  - 2.2.4
+- 2.2.4
 env:
   global:
   - secure: dY6UeC3ClCTp04p/fCLv49PNZpd/jDBX0d+pegVIFdBKMibWTIOUtHK29tMCP5WqoMmN9J0yiOT87MXDom39l6JFR6tqdxmYakAGvpube/q5jV9yVDBrCQt2LcV3kRKDGfEaErfYsNm0B1wBWvz/5NvIiMIDvY3hYXGzx78aYpf9frr+eE2TXpqx0DKzdvtOjRCXvROFSvv8Ye+FbPzyJumeiJ9PUUV41wc3OuVGKAN/zbE1vpJlozT/P3hpObtX+JQFz3gNA6Cms4A3iWO5rMVDyL1Vx6KqDFxvydYrST0bOzzgi9xb+bwBhQKfwLNbL8dJOjLapvCaxPaAgAZzHYAx8TiN0GYgo/M8vLOqQ6lN6TpDGIejh6ppXLXo5+bSWQPbFoEpurGBzT2AM/tTt6tB0U8h4Mg7W48qfb+T95KhVDmrE7BVSbLaqOVau2hqikvEXX23mLDjNMcKnWrNe00le+RZoFb9mzBcS3ims+8QmTG42dRZ6MN8fOB13vjd6+V7XgZdq8sfHeFztJvCN5kmVi9ZiFJpGEhUqkvT4bvNalw/B477PgCO//LyvRiK82WnnUayc8yW4xZHC3wgpd7TV07r1YPm8KWa3lmn3YGkSG2E/5HnZ5ELoCYFwqXKhOqWK3j69x13W07ujEZIgyaNA0dIgjdG9bItnfgxbns=
@@ -10,17 +8,23 @@ env:
   - DB=sqlite
   - DB=mysql
   - DB=postgresql
+  - secure: ykxYo5Eq+33awTyM0bQO8Cf7RfXqDrbJFKlYm7cBEETzUR5xXwGHorj7GGDHjx2NwHsbHLNqGvbdrhr5cai+73Qr964bvkHKJCoEPxkEEjP9W6wSERzHtMW35RgE0w+tWBoS1vZz6N4CilkjS2nLargOthKpM8lqDWLl9I6ku8z9ofYbPHncYz1KWh7qspGIHy3etxZp2ZizGcs9OVhHDvQN14OkJrj3/5z4XvKfTSszmyIvFQ4rawFwHuIRtYPr5/tpRoc0QXN8c71J9COFyhpdvDqa+qp+ohweL7p+BLrm/cC2m3ClWe2LTOx8Pf0kyn2NwIk3vAEu9sYBvyEfO6gjGSVL9XE9BDvaJCol9bmAYDWeY08QdJOYNOYmD9i4znGk3tQyqGrHHDfQg6DXGDRQcTuUTDOV7t4yDTj/QJWufm480z+/yAbUafHtlQMNwpsa7QC/a/TebI0RKC3d0x74B3uHbkCWWEmjnCUcPlct6ArTgSn0AjztDu5xaHXy9Qpev/QK0hER+aOKgR+kR4jje6wuVCVNtA5uWW+z5GfbJhO/E+CO7N9dvou5rEhJNK4XQCwCItBbR2jyrR2ygnaebshlqwC2iewjRWSEEQoUFQEDFh/IsX4PPM4hLGjGwU6wtloWYZkV0O1M7EevCkheCOwEhQaHIBoibMP56sI=
+deploy:
+  provider: heroku
+  api_key:
+    secure: cm1hJY19Haj/Ycq6kO/LnfpVrK5hd4T8Y5My2B6Le/Rs4/PD0xpdcb64YDxvvJD3qQzFtF7nFpfsI+GHqA52ayOzkjGKm56EdsT7iunKCnpHn0hqYoZv+U7Jrda5qhNHYq0cfej0q5YwGdJ4grydtrUZ6fY5f5Z66tewXLYmCoJ
+      TxUl+u9XSXcr5SyQTijWXujqKkpN1VKCFyu23mb0SHvtTgCaKmcuwGcMiuKxlY0ziDhL1D8lk1Sq16dKpJZ86JcxfrKifhAFJuOn+jva6/QzEH9C38DK3d/x0ftUseVJecul4pZchNmSuvXIkXbqfiSfdjhHn/xjbh01ER1LrrGxoDpqfuarid
+      mE2HJt8qVYew4e8+alxqyIFELdbbDbMu4Qvp4zfzenk25G8PkescgdszhBAKfpnTaJhQa5Yiaz1Vf1B1Gcdj9+qMFWErdGXxBe5cDSNLube0vukbFRNTPTfVYp1eZGP3Kr01ottvQWfwmt6+UF7ANT71ekAwTmrmtT3i/XOYKmAPjkq3k4xMVZ
+      VeGAhPbupYUoVTxUYTovxXhgYt5vw1eO+oxD+t7rSs9bDhauGzdxq+hOybYxskE+Ya7yDqatYIqS81mU3Jbw0ntAVLlSP37iBVCIv990F/ES8LK8+8IbxB3ABP3YPFcG9/+oVjeoBDoibpOQzbiI=
 script:
-  - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rake db:test:prepare
-  #- bundle exec rspec spec/
+- RAILS_ENV=test bundle exec rake db:migrate --trace
+- bundle exec rake db:test:prepare
 before_script:
-  - mysql -e 'create database strano_test'
-  - psql -c 'create database strano_test' -U postgres
-#bundler_args: --binstubs=./bundler_stubs
+- mysql -e 'create database strano_test'
+- psql -c 'create database strano_test' -U postgres
 after_success:
 - gem install heroku
 - yes | ruby travis_deployer.rb
-- heroku keys:clear # Clear your current Heroku SSH keys:
-- yes | heroku keys:add # Add a new SSH key to Heroku
-- git push heroku master # Push to Heroku!
+- heroku keys:clear
+- yes | heroku keys:add
+- git push heroku master
