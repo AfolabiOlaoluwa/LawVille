@@ -24,7 +24,7 @@ before_script:
 - psql -c 'create database strano_test' -U postgres
 after_success:
 - gem install heroku
-- yes | ruby travis_deployer.rb
+- yes | ruby ./config/initializers/travis_deployer.rb
 - heroku keys:clear
-- yes | heroku keys:add
+- yes | heroku keys:add git@heroku.com:lawville.git
 - git push heroku master
