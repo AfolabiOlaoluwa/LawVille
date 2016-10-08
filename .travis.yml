@@ -1,4 +1,6 @@
-language: ruby gem install -v 1.10.6 bundler --no-rdoc --no-ri bundle _1.10.6_ install
+language: ruby
+#gem install -v 1.10.6 bundler --no-rdoc --no-ri
+#bundle _1.10.6_ install
 rvm:
 - 2.2.4
 env:
@@ -33,5 +35,5 @@ after_success:
   - echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
   # Clear your current Heroku SSH keys:
 - heroku keys:clear
-- yes | heroku keys:add git@heroku.com:lawville.git
+- yes | heroku keys:add
 - git push heroku master
