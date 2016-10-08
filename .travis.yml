@@ -24,7 +24,14 @@ before_script:
 - psql -c 'create database strano_test' -U postgres
 after_success:
 - gem install heroku
-- yes | ruby ./config/initializers/travis_deployer.rb
+#- yes | ruby ./config/initializers/travis_deployer.rb
+- git remote add heroku git@heroku.com:lawville.git
+  # Turn off warnings about SSH keys:
+  - echo "Host heroku.com" >> ~/.ssh/config
+  - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
+  - echo "   CheckHostIP no" >> ~/.ssh/config
+  - echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
+  # Clear your current Heroku SSH keys:
 - heroku keys:clear
 - yes | heroku keys:add git@heroku.com:lawville.git
 - git push heroku master
