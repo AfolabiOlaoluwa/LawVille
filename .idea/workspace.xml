@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="186">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -501,7 +501,7 @@
       <option name="presentableId" value="Default" />
       <updated>1475790719594</updated>
       <workItem from="1475790721785" duration="33903000" />
-      <workItem from="1476039022531" duration="4781000" />
+      <workItem from="1476039022531" duration="5856000" />
     </task>
     <task id="LOCAL-00003" summary="Edited my gitignore">
       <created>1475790833392</created>
@@ -514,7 +514,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41415000" />
+    <option name="totallyTimeSpent" value="42490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -947,15 +947,15 @@
     <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
