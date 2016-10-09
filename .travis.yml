@@ -12,13 +12,10 @@ env:
 deploy:
   provider: heroku
   api_key:
-   secure: cm1hJY19Haj/Ycq6kO/LnfpVrK5hd4T8Y5My2B6Le/Rs4/PD0xpdcb64YDxvvJD3qQzFtF7nFpfsI+GHqA52ayOzkjGKm56EdsT7iunKCnpHn0hqYoZv+U7Jrda5qhNHYq0cfej0q5YwGdJ4grydtrUZ6fY5f5Z66tewXLYmCoJ
-      TxUl+u9XSXcr5SyQTijWXujqKkpN1VKCFyu23mb0SHvtTgCaKmcuwGcMiuKxlY0ziDhL1D8lk1Sq16dKpJZ86JcxfrKifhAFJuOn+jva6/QzEH9C38DK3d/x0ftUseVJecul4pZchNmSuvXIkXbqfiSfdjhHn/xjbh01ER1LrrGxoDpqfuarid
-      mE2HJt8qVYew4e8+alxqyIFELdbbDbMu4Qvp4zfzenk25G8PkescgdszhBAKfpnTaJhQa5Yiaz1Vf1B1Gcdj9+qMFWErdGXxBe5cDSNLube0vukbFRNTPTfVYp1eZGP3Kr01ottvQWfwmt6+UF7ANT71ekAwTmrmtT3i/XOYKmAPjkq3k4xMVZ
-      VeGAhPbupYUoVTxUYTovxXhgYt5vw1eO+oxD+t7rSs9bDhauGzdxq+hOybYxskE+Ya7yDqatYIqS81mU3Jbw0ntAVLlSP37iBVCIv990F/ES8LK8+8IbxB3ABP3YPFcG9/+oVjeoBDoibpOQzbiI=
+    secure: u29H/4fCOG9w4jfpMOYHpAvpVK7/O6qPCdSbbwz9bAVFvMxHEahZKBM0Bhoc5sRU0nt3gKEIPwiXRCvxFsQVr5ZLb6j2qFk5/exY3l3nxgF0rXl6ZdwkJ+MgJLOQhYtB9NyNmLP/zmoCUtJufOPLxpN+qUwicu0PaHFfO0qz56uKZmCLVvrdpEmepp2KnYlWgOS170sD/BT6p8wG+DXkM7OLsRcMbn8A+UVpcVEFBUf28yAc5ANx99ANy6nZ4/gUASIc8n/LLtap2WWhFsKghGuhgJh6aeV18ZZr66eb6mPJmOf+kJYCbrYuVlu55eTyzEqcSf903hiiIABWbfvVsLFpg0m6hfY0mSvGxwKFA5pP2dBzLKwWXcqAk/4lnP8ljPVts3p0yyy+Meq+x/U0A+IcXQc/jq4eIqSJMelv+lf/eQFmnG3aULhgU/rA/cBH7pnHgk0/vl1HSOLo2nRcwTHDvLdNx4D739jQyGr5RGSsTLqMwtFCJto3OBgli2sUJM4Q/J5N4BJCyh2obSnUjSusLiC9KEZaGUSSEu3y6VjqHLeMXyUA8RW3HKCmOqePqM/Z22HaP1vN7l6UNBcFpgonoCJ7lPVxRWaHIlOalhVUTgqn/28pU76bgG3me+h7ZB4SZ5aU0sn4dzo+tGd226mosJJWIuEv3HGLnwnGiIU=
 script:
-  - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rake db:test:prepare
+- RAILS_ENV=test bundle exec rake db:migrate --trace
+- bundle exec rake db:test:prepare
 before_script:
-  - mysql -e 'create database strano_test'
-  - psql -c 'create database strano_test' -U postgres
+- mysql -e 'create database strano_test'
+- psql -c 'create database strano_test' -U postgres
