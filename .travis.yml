@@ -13,7 +13,7 @@ deploy:
   provider: heroku
   api_key:
     secure: CIwtKLo5LU6bDsANOH3zFduPUp6Fr2epPD2DstSlGrTNBPk/FSW7cjbWVKtsY28g4GQAFma/r9irWDXIzzJL+NKIIK7rcaJzygZI9Kz5DczM3/uN+Tay3lS6zOCxLJlXSg8VgWXqmmlgEex8Hqf7907WUgg/Ut8BbEB/yWfjH7GYgK0IKlZEI5ihjuQfPML+hu4PLwxaFvuHEHszRpIJVvAnUCEj4+ShUoWz/Nv+INvSfImO6vlN+cGv60v8AxVKQm+LxIZkPEc8vH7W6CXnMoLBmU0vPeM0JLr0T4fP3VUPuFiOV51rj4hP3+3wQ15BO3blOVK4qQUdXsTQdFJ2DSU9Iv5FbquOF7nE9oaxTMK6ikrALCXJFcnQLWqx1VLsht7Tk2aXLjW+Tl49IT8VfSpcWAXIB+twE9qvvj/iEYRhxi6KXOhaqETYNT9fR8Ypf6oOES29sDT5H6OlGvJq4ewxuNmDYnB6bF8qM2DlaMMLbckVwyUehgMc6UQ4c0GHhr+6ACEVsiwwd5fUeEYFsT7pWtmXgrQOnX61oIGMuaYMG1VEIn96T++89o5sA1IFlIfAp3Ju51h+S6qqh1okwr+KpPGEap6L0PFP5mXKRC07smF1Hz+XWvZF2fOyfeYUObA425Aep0iKHurAkM2gLl+dqhLA3RHFH03+pfj4wSo=
-  app: LawVille
+  app: lawville
   on:
     repo: AfolabiOlaoluwa/LawVille
 script:
