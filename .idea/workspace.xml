@@ -36,8 +36,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="166">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -501,7 +501,7 @@
       <option name="presentableId" value="Default" />
       <updated>1475790719594</updated>
       <workItem from="1475790721785" duration="33903000" />
-      <workItem from="1476039022531" duration="1186000" />
+      <workItem from="1476039022531" duration="1964000" />
     </task>
     <task id="LOCAL-00003" summary="Edited my gitignore">
       <created>1475790833392</created>
@@ -514,7 +514,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37820000" />
+    <option name="totallyTimeSpent" value="38598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -946,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="166">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
