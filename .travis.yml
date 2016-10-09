@@ -12,19 +12,10 @@ env:
 deploy:
   provider: heroku
   api_key:
-    secure: cm1hJY19Haj/Ycq6kO/LnfpVrK5hd4T8Y5My2B6Le/Rs4/PD0xpdcb64YDxvvJD3qQzFtF7nFpfsI+GHqA52ayOzkjGKm56EdsT7iunKCnpHn0hqYoZv+U7Jrda5qhNHYq0cfej0q5YwGdJ4grydtrUZ6fY5f5Z66tewXLYmCoJ
-      TxUl+u9XSXcr5SyQTijWXujqKkpN1VKCFyu23mb0SHvtTgCaKmcuwGcMiuKxlY0ziDhL1D8lk1Sq16dKpJZ86JcxfrKifhAFJuOn+jva6/QzEH9C38DK3d/x0ftUseVJecul4pZchNmSuvXIkXbqfiSfdjhHn/xjbh01ER1LrrGxoDpqfuarid
-      mE2HJt8qVYew4e8+alxqyIFELdbbDbMu4Qvp4zfzenk25G8PkescgdszhBAKfpnTaJhQa5Yiaz1Vf1B1Gcdj9+qMFWErdGXxBe5cDSNLube0vukbFRNTPTfVYp1eZGP3Kr01ottvQWfwmt6+UF7ANT71ekAwTmrmtT3i/XOYKmAPjkq3k4xMVZ
-      VeGAhPbupYUoVTxUYTovxXhgYt5vw1eO+oxD+t7rSs9bDhauGzdxq+hOybYxskE+Ya7yDqatYIqS81mU3Jbw0ntAVLlSP37iBVCIv990F/ES8LK8+8IbxB3ABP3YPFcG9/+oVjeoBDoibpOQzbiI=
+    secure: AsbkNa/M61TSj5nErTR6wrsus1rnVqYeXBPCRsbawidD3kDb1oSUKQmdEtzXEsGMJv/2ECeaHl1gPD6cV20Q7FG2fBR3yalRCP0xZH1Yz2VKXTtFJvtG7w9j8Jtf+bQBe79S6gqLg6/LOTbHYGU7iHWuI2euuRQIgsVGK2txnn+50bprLQLCUraPmqNsMxYdIIKE7psgjH+ure0vXm5qcp57WkvXCW7GGgOWeHFA02iqTwM93rPEfONKV1HS4YVk1JTIi+8EtZ+Q0itQPZP1thCaPmJ5y0eUcwj6e7m/ksoML/8CY5L+XYi1s42Vt53XpF2bat3hk1irQeIgS9U3fahxl5ryJN7+VU47OVLTY0aL/bX2/n7fcjJNKJX1hEQZeOPjU+zff/IfFmCFKFNi0C4H/3H4ji7XPPhCmCnf8F0ewIqtQcdqNr2OtBjyhFOnjFSp5Jj3ngxhdmzarmQTk+RIEaYNR5WieRVq2+fUukhWyqrfd8pnx4gX2OBKT8VEquQDm90ynmf+7xwEVAI0LkX/MMWBm6HNprJxA6Eo4+gopZNYSvmLtP6FiJwMuqNS5VvTCa4OtgpxcFYlVVUZPhepo9v0gDs5OWZQrx4SqGZyA6CLJndHx3oyERHbRp8G4ZGSiG2Ew08nyJkdp+qIxPDWvWBjLYozYRP4XPV2+Tw=
 script:
-  - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rake db:test:prepare
+- RAILS_ENV=test bundle exec rake db:migrate --trace
+- bundle exec rake db:test:prepare
 before_script:
-  - mysql -e 'create database strano_test'
-  - psql -c 'create database strano_test' -U postgres
-#after_success:
- # - gem install heroku
- # - yes | ruby ./config/initializers/travis_deployer.rb
- # - heroku keys:clear
- # - yes | heroku keys:add
- # - git push heroku master
+- mysql -e 'create database strano_test'
+- psql -c 'create database strano_test' -U postgres
