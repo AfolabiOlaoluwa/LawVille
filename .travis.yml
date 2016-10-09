@@ -12,10 +12,19 @@ env:
 deploy:
   provider: heroku
   api_key:
-     - secure: o93kEg7ihyduvXVn+oTcSKg1Ikcm+n2JYvNQti1b6CXcSI6rwVEUhqmLrmvXc38OC1tCIpbvILTxMuw5FNgLDLD/BsLNLVPFIyGaOHJcExXzAP7MkZy0KBdt00lJhVoJHG6Kq8ulPdlRGEKgxbUtENfMUWKFn6++yEzc62fbF/Rb090xmP6r0jxwT3lXvyhgW4zxgPw/LAh6q8LExrJRasB0zgu66GYlbamqGvg1eFaIzPkjNmgrpmphQzcfyd0yhCHJ0XvX/vtL2q5dGy4HQnUeBvUQZighnudOXDuB1+vrmY1eftqwHxYM5N0AoB0BL+61PF+h452jTZPKeCns2G6F6cSeXuhztpbPP7oqcHRtEDRUT6PGGA5+jB7tzQ1XEDZgZYJLNN4H4d+D8wZIR8F72CcqEuDJ3/hb731Q4/JZUCXtQ6aJUrOXbP4xARA9juC6aighivKe+WX8EkCBOa054RxJI8yNa3bQke1f7iiMj4BfRv/KKggYj4bEuNywii4StREHCcnLYgBJy5u6bCbLCURmPqaLncKCSaD1hMM6cU2RkgdQe2DDnmiMZqp9eyOZOUS/lGS9ZhdFjGwTtPpuGL73domhIpCIkpovl00NLK8FDVxqU+KaZF8wWF6wIgWzpkxpNYWs/7CqNREFr3/xd2It0d88CN0zRMwBSew=
+     - secure: cm1hJY19Haj/Ycq6kO/LnfpVrK5hd4T8Y5My2B6Le/Rs4/PD0xpdcb64YDxvvJD3qQzFtF7nFpfsI+GHqA52ayOzkjGKm56EdsT7iunKCnpHn0hqYoZv+U7Jrda5qhNHYq0cfej0q5YwGdJ4grydtrUZ6fY5f5Z66tewXLYmCoJ
+      TxUl+u9XSXcr5SyQTijWXujqKkpN1VKCFyu23mb0SHvtTgCaKmcuwGcMiuKxlY0ziDhL1D8lk1Sq16dKpJZ86JcxfrKifhAFJuOn+jva6/QzEH9C38DK3d/x0ftUseVJecul4pZchNmSuvXIkXbqfiSfdjhHn/xjbh01ER1LrrGxoDpqfuarid
+      mE2HJt8qVYew4e8+alxqyIFELdbbDbMu4Qvp4zfzenk25G8PkescgdszhBAKfpnTaJhQa5Yiaz1Vf1B1Gcdj9+qMFWErdGXxBe5cDSNLube0vukbFRNTPTfVYp1eZGP3Kr01ottvQWfwmt6+UF7ANT71ekAwTmrmtT3i/XOYKmAPjkq3k4xMVZ
+      VeGAhPbupYUoVTxUYTovxXhgYt5vw1eO+oxD+t7rSs9bDhauGzdxq+hOybYxskE+Ya7yDqatYIqS81mU3Jbw0ntAVLlSP37iBVCIv990F/ES8LK8+8IbxB3ABP3YPFcG9/+oVjeoBDoibpOQzbiI=
 script:
-- RAILS_ENV=test bundle exec rake db:migrate --trace
-- bundle exec rake db:test:prepare
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bundle exec rake db:test:prepare
 before_script:
-- mysql -e 'create database strano_test'
-- psql -c 'create database strano_test' -U postgres
+  - mysql -e 'create database strano_test'
+  - psql -c 'create database strano_test' -U postgres
+#after_success:
+ # - gem install heroku
+ # - yes | ruby ./config/initializers/travis_deployer.rb
+ # - heroku keys:clear
+ # - yes | heroku keys:add
+ # - git push heroku master
