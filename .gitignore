@@ -22,7 +22,7 @@
 /config/database.yml
 
 # Environment Normalisation
-.idea
+/*.idea
 /vendor/bundle
 /vendor/*.bundle
 #/Gemfile.lock
