@@ -3,10 +3,10 @@ rvm:
   - 2.2.4
 before_install:
   - gem install nokogiri -v '1.6.8.1'
-  - gem install ffi -v '1.9.14'
+  #- gem install ffi -v '1.9.14'
   #- gem bundler -v '1.11.2' --no-rdoc --no-ri
-  - gem install -v 1.11.2 bundler --no-rdoc --no-ri
-  - bundle _1.11.2_ install
+  - gem install -v 1.10.6 bundler --no-rdoc --no-ri
+  - bundle _1.10.6_ install
 env:
   global:
   - secure: dY6UeC3ClCTp04p/fCLv49PNZpd/jDBX0d+pegVIFdBKMibWTIOUtHK29tMCP5WqoMmN9J0yiOT87MXDom39l6JFR6tqdxmYakAGvpube/q5jV9yVDBrCQt2LcV3kRKDGfEaErfYsNm0B1wBWvz/5NvIiMIDvY3hYXGzx78aYpf9frr+eE2TXpqx0DKzdvtOjRCXvROFSvv8Ye+FbPzyJumeiJ9PUUV41wc3OuVGKAN/zbE1vpJlozT/P3hpObtX+JQFz3gNA6Cms4A3iWO5rMVDyL1Vx6KqDFxvydYrST0bOzzgi9xb+bwBhQKfwLNbL8dJOjLapvCaxPaAgAZzHYAx8TiN0GYgo/M8vLOqQ6lN6TpDGIejh6ppXLXo5+bSWQPbFoEpurGBzT2AM/tTt6tB0U8h4Mg7W48qfb+T95KhVDmrE7BVSbLaqOVau2hqikvEXX23mLDjNMcKnWrNe00le+RZoFb9mzBcS3ims+8QmTG42dRZ6MN8fOB13vjd6+V7XgZdq8sfHeFztJvCN5kmVi9ZiFJpGEhUqkvT4bvNalw/B477PgCO//LyvRiK82WnnUayc8yW4xZHC3wgpd7TV07r1YPm8KWa3lmn3YGkSG2E/5HnZ5ELoCYFwqXKhOqWK3j69x13W07ujEZIgyaNA0dIgjdG9bItnfgxbns=
