@@ -24,5 +24,6 @@
 
 # Environment Normalisation
 /idea/*
+#/vendor/bundle/*
 /vendor/bundle
 
