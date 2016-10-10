@@ -193,6 +193,7 @@ GEM
       rails (>= 4.1)
       stripe (>= 1.20.1)
       stripe_event (>= 1.3.0)
+    pg (0.19.0-x86-mingw32)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -221,6 +222,9 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
     rails_admin (0.8.1)
       builder (~> 3.1)
       coffee-rails (~> 4.0)
@@ -235,6 +239,8 @@ GEM
       remotipart (~> 1.0)
       safe_yaml (~> 1.0)
       sass-rails (>= 4.0, < 6)
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (4.2.5.1)
       actionpack (= 4.2.5.1)
       activesupport (= 4.2.5.1)
@@ -357,7 +363,9 @@ DEPENDENCIES
   nokogiri (= 1.6.8.1)
   paper_trail (= 4.2.0)
   payola-payments (= 1.3.0)
+  pg
   rails (= 4.2.5.1)
+  rails_12factor
   rails_admin (= 0.8.1)
   redactor-rails (= 0.5.0)
   rolify (= 5.1.0)
