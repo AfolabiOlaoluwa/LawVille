@@ -65,6 +65,7 @@ group :development do
   gem 'figaro', '1.1.1'
   gem 'travis', '1.8.2'
   gem 'nokogiri', '1.6.8.1'
+  gem 'ffi', '1.9.14'
   #gem 'koudoku', '0.0.4'
 end
 
