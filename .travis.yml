@@ -2,7 +2,7 @@ language: ruby #gem install -v 1.10.6 bundler --no-rdoc --no-ri bundle _1.10.6_ 
 rvm:
   - 2.2.4
 before_install:
-  - sudo gem install nokogiri -v '1.6.8.1'
+  - gem install nokogiri -v '1.6.8.1'
   - gem install -v 1.11.2 bundler --no-rdoc --no-ri
   - bundle _1.11.2_ install
 env:
