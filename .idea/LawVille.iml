@@ -201,135 +201,878 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="aasm (v4.11.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="module-library">
+      <library name="activesupport (vbundled(4.2.5.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.5.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.5.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.5.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="addressable (vbundled(2.4.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/addressable-2.4.0/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="arel (vbundled(6.0.3), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/arel-6.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/arel-6.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/arel-6.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="backports (vbundled(3.6.8), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/backports-3.6.8) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/backports-3.6.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/backports-3.6.8/set_version" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/backports-3.6.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/backports-3.6.8/set_version" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcrypt (vbundled(3.1.11), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.11-x86-mingw32) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.11-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.11-x86-mingw32/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.11-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.11-x86-mingw32/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="binding_of_caller (vbundled(0.7.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/binding_of_caller-0.7.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/binding_of_caller-0.7.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/binding_of_caller-0.7.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/binding_of_caller-0.7.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/binding_of_caller-0.7.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bourbon (vbundled(4.2.7), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/features" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/bourbon-4.2.7/features" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="builder (vbundled(3.2.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/builder-3.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/builder-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/builder-3.2.2/rakelib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/builder-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/builder-3.2.2/rakelib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="byebug (vbundled(9.0.5), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/byebug-9.0.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cancancan (vbundled(1.15.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/cancancan-1.15.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/cancancan-1.15.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/cancancan-1.15.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/cancancan-1.15.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/cancancan-1.15.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-script (vbundled(2.4.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/coffee-script-2.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/coffee-script-2.4.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/coffee-script-2.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-script-source (vbundled(1.10.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/coffee-script-source-1.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/coffee-script-source-1.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/coffee-script-source-1.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="concurrent-ruby (vbundled(1.0.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/concurrent-ruby-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/concurrent-ruby-1.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/concurrent-ruby-1.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="connection_pool (vbundled(2.2.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/connection_pool-2.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/connection_pool-2.2.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/connection_pool-2.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="debug_inspector (vbundled(0.0.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="easy_translate (vbundled(0.5.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/easy_translate-0.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/easy_translate-0.5.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/easy_translate-0.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="erubis (vbundled(2.7.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/doc-api" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/benchmark" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/doc-api" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/erubis-2.7.0/benchmark" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ethon (vbundled(0.9.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/ethon-0.9.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ethon-0.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ethon-0.9.1/profile" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ethon-0.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ethon-0.9.1/profile" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="execjs (vbundled(2.7.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/execjs-2.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/execjs-2.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/execjs-2.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faraday (vbundled(0.9.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/faraday-0.9.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/faraday-0.9.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/faraday-0.9.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ffi (vbundled(1.9.14), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/gen" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/libtest" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/gen" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.14-x86-mingw32/libtest" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="figaro (vbundled(1.1.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/figaro-1.1.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="font-awesome-sass (vbundled(4.6.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/font-awesome-sass-4.6.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/font-awesome-sass-4.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/font-awesome-sass-4.6.2/assets" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/font-awesome-sass-4.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/font-awesome-sass-4.6.2/assets" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="haml (vbundled(4.0.7), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/haml-4.0.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/haml-4.0.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/haml-4.0.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/haml-4.0.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/haml-4.0.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="highline (vbundled(1.7.8), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/highline-1.7.8) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/highline-1.7.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/highline-1.7.8/site" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/highline-1.7.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/highline-1.7.8/site" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="i18n (vbundled(0.7.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/i18n-0.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/i18n-0.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/i18n-0.7.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/i18n-0.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/i18n-0.7.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json (vbundled(1.8.3), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/json-1.8.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/diagrams" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/json-1.8.3/diagrams" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="launchy (vbundled(2.4.3), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/launchy-2.4.3/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mime-types (vbundled(3.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/mime-types-3.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mime-types-3.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mime-types-3.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mime-types-data (vbundled(3.2016.0521), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/mime-types-data-3.2016.0521) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mime-types-data-3.2016.0521/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mime-types-data-3.2016.0521/data" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mime-types-data-3.2016.0521/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mime-types-data-3.2016.0521/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mimemagic (vbundled(0.3.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/mimemagic-0.3.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mimemagic-0.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mimemagic-0.3.2/script" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mimemagic-0.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mimemagic-0.3.2/script" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_magick (vbundled(4.5.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/mini_magick-4.5.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mini_magick-4.5.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mini_magick-4.5.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_portile2 (vbundled(2.1.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/mini_portile2-2.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mini_portile2-2.1.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/mini_portile2-2.1.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multi_json (vbundled(1.12.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/multi_json-1.12.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/multi_json-1.12.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/multi_json-1.12.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multipart-post (vbundled(2.0.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/multipart-post-2.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/multipart-post-2.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/multipart-post-2.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="neat (vbundled(1.8.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/contrib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/neat-1.8.0/contrib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nested_form (vbundled(0.3.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/nested_form-0.3.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/nested_form-0.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/nested_form-0.3.2/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/nested_form-0.3.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/nested_form-0.3.2/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="net-http-persistent (vbundled(3.0.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/net-http-persistent-3.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/net-http-persistent-3.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/net-http-persistent-3.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="net-http-pipeline (vbundled(1.0.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/net-http-pipeline-1.0.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/net-http-pipeline-1.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/net-http-pipeline-1.0.1/sample" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/net-http-pipeline-1.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/net-http-pipeline-1.0.1/sample" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netrc (vbundled(0.11.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/netrc-0.11.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/netrc-0.11.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/netrc-0.11.0/data" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/netrc-0.11.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/netrc-0.11.0/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="normalize-rails (vbundled(3.0.3), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/normalize-rails-3.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/normalize-rails-3.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/normalize-rails-3.0.3/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/normalize-rails-3.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/normalize-rails-3.0.3/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="orm_adapter (vbundled(0.5.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/orm_adapter-0.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/orm_adapter-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/orm_adapter-0.5.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/orm_adapter-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/orm_adapter-0.5.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pusher-client (vbundled(0.6.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/pusher-client-0.6.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/pusher-client-0.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/pusher-client-0.6.2/certs" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/pusher-client-0.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/pusher-client-0.6.2/certs" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack (vbundled(1.6.4), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/example" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/example" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack-test (vbundled(0.6.3), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/rack-test-0.6.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-test-0.6.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rack-test-0.6.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rdoc (vbundled(4.2.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/rdoc-4.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rdoc-4.2.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rdoc-4.2.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rdoc-4.2.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rdoc-4.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="request_store (vbundled(1.3.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/request_store-1.3.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/request_store-1.3.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/request_store-1.3.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rolify (vbundled(5.1.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/rolify-5.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rolify-5.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rolify-5.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rolify-5.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/rolify-5.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="safe_yaml (vbundled(1.0.4), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/safe_yaml-1.0.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/safe_yaml-1.0.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/safe_yaml-1.0.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/safe_yaml-1.0.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/safe_yaml-1.0.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sass (vbundled(3.4.22), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/extra" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/extra" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sass-3.4.22/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sdoc (vbundled(0.4.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/sdoc-0.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sdoc-0.4.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sdoc-0.4.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sdoc-0.4.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sdoc-0.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sprockets (vbundled(3.7.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/sprockets-3.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sprockets-3.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sprockets-3.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sprockets-3.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sprockets-3.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sqlite3 (vbundled(1.3.11), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/faq" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/faq" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/sqlite3-1.3.11-x86-mingw32/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thor (vbundled(0.19.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/thor-0.19.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thor-0.19.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thor-0.19.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thor-0.19.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thor-0.19.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thread (vbundled(0.2.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/thread-0.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread-0.2.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread-0.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thread_safe (vbundled(0.3.5), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/yard-template" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/thread_safe-0.3.5/yard-template" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tilt (vbundled(2.0.5), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5/man" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tilt-2.0.5/man" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tins (vbundled(1.12.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/tins-1.12.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tins-1.12.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tins-1.12.0/tests" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tins-1.12.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tins-1.12.0/tests" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="turbolinks (vbundled(5.0.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/turbolinks-5.0.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/turbolinks-5.0.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/turbolinks-5.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="turbolinks-source (vbundled(5.0.0), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/turbolinks-source-5.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/turbolinks-source-5.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/turbolinks-source-5.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tzinfo (vbundled(1.2.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/tzinfo-1.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tzinfo-1.2.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tzinfo-1.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tzinfo-data (vbundled(1.2016.6), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/tzinfo-data-1.2016.6) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tzinfo-data-1.2016.6/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/tzinfo-data-1.2016.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="uglifier (vbundled(3.0.1), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/uglifier-3.0.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/uglifier-3.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/uglifier-3.0.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/uglifier-3.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/uglifier-3.0.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unf (vbundled(0.1.4), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/unf-0.1.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/unf-0.1.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/unf-0.1.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unf_ext (vbundled(0.0.7.2), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2-x86-mingw32) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2-x86-mingw32/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2-x86-mingw32/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2-x86-mingw32/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="warden (vbundled(1.2.6), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/warden-1.2.6) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/warden-1.2.6/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/warden-1.2.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="websocket (vbundled(1.2.3), F:/Rails Programs/RubymineProjects/LawVille/vendor/bundle/ruby/2.2.0/gems/websocket-1.2.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/websocket-1.2.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.2.0/gems/websocket-1.2.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="aasm (v4.11.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.4.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="administrate (v0.2.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v6.4.0.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="backports (v3.6.8, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.11, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v6.5.0.2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.3.7, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bourbon (v4.2.7, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.11.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.5, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cancancan (v1.15.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="carrierwave (v0.11.2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.10.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.2.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="datetime_picker_rails (v0.0.7, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="delayed_job (v4.1.2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="delayed_job_active_record (v4.1.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.2.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20160615, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="easy_translate (v0.5.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ethon (v0.9.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="faraday (v0.9.2, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20160826, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday_middleware (v0.10.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.14, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="figaro (v1.1.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="font-awesome-rails (v4.6.3.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="font-awesome-sass (v4.6.2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="gh (v0.14.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.7, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.7, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="highline (v1.7.8, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n-tasks (v0.8.7, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.6.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.1.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-turbolinks (v2.1.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v5.0.5, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari (v0.17.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.4.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.4, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mimemagic (v0.3.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_magick (v4.5.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.1.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.9.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="momentjs-rails (v2.11.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.0.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="neat (v1.8.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nested_form (v0.3.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="net-http-persistent (v3.0.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="net-http-pipeline (v1.0.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.11.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.8, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="normalize-rails (v3.0.3, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.9.1, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="momentjs-rails (v2.15.1, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.8.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="paper_trail (v4.2.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="payola-payments (v1.3.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pkg-config (v1.1.7, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pusher-client (v0.6.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-pjax (v0.8.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-deprecated_sanitizer (v1.0.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v1.0.7, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails_admin (v0.8.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.5.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v11.2.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.2, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v11.3.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="redactor-rails (v0.5.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="remotipart (v1.2.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="request_store (v1.3.1, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="remotipart (v1.3.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.3.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rest-client (v2.0.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rolify (v5.1.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="safe_yaml (v1.0.4, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.22, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.6, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selectize-rails (v0.12.2, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selectize-rails (v0.12.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.1.0.rc2, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="social-share-button (v0.2.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.1.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.11, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="stripe (v1.50.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="stripe_event (v1.5.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="term-ansicolor (v1.3.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="terminal-table (v1.6.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread (v0.2.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.5, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tins (v1.12.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="stripe (v1.55.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="stripe_event (v1.5.1, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="term-ansicolor (v1.4.0, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="terminal-table (v1.7.3, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="travis (v1.8.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v5.0.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks-source (v5.0.0, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="typhoeus (v0.8.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo-data (v1.2016.6, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="uglifier (v3.0.1, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.7.2, ruby-2.2.4-p230) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v1.1.1, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="validates_formatting_of (v0.9.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.6, ruby-2.2.4-p230) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v2.3.0, ruby-2.2.4-p230) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="websocket (v1.2.3, ruby-2.2.4-p230) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

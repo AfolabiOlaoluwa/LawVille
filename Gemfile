@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -64,6 +64,7 @@ group :development do
   gem 'jquery-turbolinks', '2.1.0'
   gem 'figaro', '1.1.1'
   gem 'travis', '1.8.2'
+  #gem 'nokogiri', '~> 1.6', '>= 1.6.8.1'
   #gem 'koudoku', '0.0.4'
 end
 
