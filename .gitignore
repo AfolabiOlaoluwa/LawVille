@@ -5,7 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-#/.bundle
+/.bundle
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -22,6 +22,8 @@
 /config/database.yml
 
 # Environment Normalisation
+.idea
 /vendor/bundle
+/vendor/*.bundle
 #/Gemfile.lock
 
