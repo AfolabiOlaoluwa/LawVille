@@ -1,6 +1,6 @@
 language: ruby #gem install -v 1.10.6 bundler --no-rdoc --no-ri bundle _1.10.6_ install
 rvm:
-  - 2.2.4p230
+  - 2.2.4
 before_install:
   - gem install -v 1.11.2 bundler --no-rdoc --no-ri
   - bundle _1.11.2_ install
