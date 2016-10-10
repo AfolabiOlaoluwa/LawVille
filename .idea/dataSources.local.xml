@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="dataSourceStorageLocal">
-    <data-source name="Rails LawVille: development" uuid="04e8721f-71cc-41b4-8321-ad530ea97375">
-      <auth-required>false</auth-required>
-    </data-source>
-    <data-source name="test" uuid="557dbcfa-922b-4fbb-9f99-d04c8df39fc1" />
-  </component>
-</project>
