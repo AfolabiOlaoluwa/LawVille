@@ -10,6 +10,10 @@ require 'action_view/railtie'
 require 'sprockets/railtie'
 require 'travis'
 require 'nokogiri'
+require 'carrierwave'
+require 'simple_form'
+require 'social-share-button'
+require 'redactor-rails'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
