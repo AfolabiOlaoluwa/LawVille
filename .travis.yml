@@ -1,11 +1,11 @@
-language: ruby #gem install -v 1.10.6 bundler --no-rdoc --no-ri bundle _1.10.6_ install
+language: ruby
 rvm:
-  - 2.2.4
+- 2.2.4
 before_install:
-  - gem install nokogiri -v '1.6.8.1'
-  - gem install ffi -v '1.9.14'
-  - gem install -v 1.10.6 bundler --no-rdoc --no-ri
-  - bundle _1.10.6_ install
+- gem install nokogiri -v '1.6.8.1'
+- gem install ffi -v '1.9.14'
+- gem install -v 1.10.6 bundler --no-rdoc --no-ri
+- bundle _1.10.6_ install
 env:
   global:
   - secure: dY6UeC3ClCTp04p/fCLv49PNZpd/jDBX0d+pegVIFdBKMibWTIOUtHK29tMCP5WqoMmN9J0yiOT87MXDom39l6JFR6tqdxmYakAGvpube/q5jV9yVDBrCQt2LcV3kRKDGfEaErfYsNm0B1wBWvz/5NvIiMIDvY3hYXGzx78aYpf9frr+eE2TXpqx0DKzdvtOjRCXvROFSvv8Ye+FbPzyJumeiJ9PUUV41wc3OuVGKAN/zbE1vpJlozT/P3hpObtX+JQFz3gNA6Cms4A3iWO5rMVDyL1Vx6KqDFxvydYrST0bOzzgi9xb+bwBhQKfwLNbL8dJOjLapvCaxPaAgAZzHYAx8TiN0GYgo/M8vLOqQ6lN6TpDGIejh6ppXLXo5+bSWQPbFoEpurGBzT2AM/tTt6tB0U8h4Mg7W48qfb+T95KhVDmrE7BVSbLaqOVau2hqikvEXX23mLDjNMcKnWrNe00le+RZoFb9mzBcS3ims+8QmTG42dRZ6MN8fOB13vjd6+V7XgZdq8sfHeFztJvCN5kmVi9ZiFJpGEhUqkvT4bvNalw/B477PgCO//LyvRiK82WnnUayc8yW4xZHC3wgpd7TV07r1YPm8KWa3lmn3YGkSG2E/5HnZ5ELoCYFwqXKhOqWK3j69x13W07ujEZIgyaNA0dIgjdG9bItnfgxbns=
@@ -14,6 +14,7 @@ env:
   - DB=mysql
   - DB=postgresql
   - secure: ykxYo5Eq+33awTyM0bQO8Cf7RfXqDrbJFKlYm7cBEETzUR5xXwGHorj7GGDHjx2NwHsbHLNqGvbdrhr5cai+73Qr964bvkHKJCoEPxkEEjP9W6wSERzHtMW35RgE0w+tWBoS1vZz6N4CilkjS2nLargOthKpM8lqDWLl9I6ku8z9ofYbPHncYz1KWh7qspGIHy3etxZp2ZizGcs9OVhHDvQN14OkJrj3/5z4XvKfTSszmyIvFQ4rawFwHuIRtYPr5/tpRoc0QXN8c71J9COFyhpdvDqa+qp+ohweL7p+BLrm/cC2m3ClWe2LTOx8Pf0kyn2NwIk3vAEu9sYBvyEfO6gjGSVL9XE9BDvaJCol9bmAYDWeY08QdJOYNOYmD9i4znGk3tQyqGrHHDfQg6DXGDRQcTuUTDOV7t4yDTj/QJWufm480z+/yAbUafHtlQMNwpsa7QC/a/TebI0RKC3d0x74B3uHbkCWWEmjnCUcPlct6ArTgSn0AjztDu5xaHXy9Qpev/QK0hER+aOKgR+kR4jje6wuVCVNtA5uWW+z5GfbJhO/E+CO7N9dvou5rEhJNK4XQCwCItBbR2jyrR2ygnaebshlqwC2iewjRWSEEQoUFQEDFh/IsX4PPM4hLGjGwU6wtloWYZkV0O1M7EevCkheCOwEhQaHIBoibMP56sI=
+  - secure: Vlwuu2uZo6/k38+tCXNdh0O8xa91mnI2GOScWZyzmO+BBgfT2a1hIZPLBHFEgfc18xbCdxN0kmZzcwWPYQcRzTXOvlWCls3PLyaFB4uXEC+2gk2ujN/dwZ0x8DWVl7Xzcih+KaXLc1iLL07ULQqkdtNkMyq2Kc9322RWeI+uH5tKr1u39i29OXazd1fpZcrT/jmbFNQjU4p71KkAsJrNG0gqAnDhRIDD4x9nCrjOkfzVf4m0UyQSoLvVQS6T03ICizLxsBI5oza6EC4RDrkqxhy9JVUJnjEJTtm7iFmGuwU2s1lBN67lhvbfTEZLK75FSzLMs/LTMqJaFk8i2T/b6QN1+vqVB+rZ51zMwHBBxoWZX/HCCSOzDzAPjcY+je5XJ7LsAECxMx242pJeA9s+//rEa/pQnj3TBsrIgrTTFe/WKq3kPTkqYPsotHfBNL2xxs6B34A1TM0Jtd+HsrH/zqbj00zyHkRwSjooTENxJp/0M9kbZTJCqPps6AWxqhmY6j9yiqlXe2mQ7onmu4TzLTRCDhsktPQ9kLs7ef/tzXPoQVFfCmv6W9EXUCxOsGsW25xuicGG6yFvll1lcbwDcvBrYWqbyR4JWuFcIrDhgDYG5Mtj3WrgoLYOdiEo2pDwptqOXpiVJrrvKohYlaU74tiT7ZbYIlQnKmo6X7VyRs0=
 deploy:
   provider: heroku
   api_key:
