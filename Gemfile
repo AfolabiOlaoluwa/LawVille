@@ -45,7 +45,6 @@ group :development do
   gem 'carrierwave', '0.11.2'
   gem 'mini_magick', '4.5.1'
   gem 'validates_formatting_of', '0.9.0'
-  gem 'payola-payments', '1.3.0'
   gem 'paper_trail', '4.2.0'
   gem 'delayed_job_active_record', '4.1.1'
   gem 'activejob', '4.2.5.1'
@@ -67,13 +66,13 @@ group :development do
   #gem 'rolify', '5.1.0'
   #gem 'cancancan', '1.15.0'
   #gem 'rails_admin', '0.8.1'
+  #gem 'payola-payments', '1.3.0'
   #gem 'koudoku', '0.0.4'
 end
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'devise', '4.2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

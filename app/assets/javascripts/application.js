@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery.turbolinks
-//= require payola
 //= require bootstrap-sprockets
 //= require redactor-rails/redactor.min
 //= require redactor-rails/plugins
