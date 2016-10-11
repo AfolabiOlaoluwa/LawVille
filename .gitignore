@@ -5,8 +5,9 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-.bundle
-*.idea
+#.bundle
+.idea/
+#*.idea
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -25,5 +26,7 @@
 # Environment Normalisation
 #/idea/*
 #/vendor/bundle/*
-/vendor/bundle
 
+app/assets/javascripts/redactor-rails/
+public/uploads/lawyer/image/4/
+public/uploads/tmp/1473946160-10096-0002-5041/
