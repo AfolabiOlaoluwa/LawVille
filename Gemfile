@@ -1,5 +1,5 @@
-source 'http://rubygems.org'
-
+source 'https://rubygems.org'
+ruby '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
@@ -51,11 +51,7 @@ group :development do
   gem 'activejob', '4.2.5.1'
   gem 'i18n-tasks', '~> 0.8.6'
   gem 'social-share-button', '0.2.1'
-  #gem 'will_paginate', '3.1.0'
   gem 'devise', '4.2.0'
-  gem 'rolify', '5.1.0'
-  gem 'cancancan', '1.15.0'
-  gem 'rails_admin', '0.8.1'
   gem 'administrate', '0.2.2'
   gem 'bootstrap-sass', '3.3.7'
   gem 'sass', '3.4.22'
@@ -67,12 +63,17 @@ group :development do
   gem 'nokogiri', '1.6.8.1'
   gem 'ffi', '1.9.14'
   gem 'sqlite3', '1.3.11'
+  #gem 'will_paginate', '3.1.0'
+  #gem 'rolify', '5.1.0'
+  #gem 'cancancan', '1.15.0'
+  #gem 'rails_admin', '0.8.1'
   #gem 'koudoku', '0.0.4'
 end
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'devise', '4.2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
