@@ -14,6 +14,7 @@ require 'carrierwave'
 require 'simple_form'
 require 'social-share-button'
 require 'redactor-rails'
+require 'devise'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
