@@ -32,42 +32,34 @@ gem 'sdoc', '0.4.1', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'web-console', '2.3.0'
+gem 'simple_form', '3.1.0.rc2'
+gem 'redactor-rails', '0.5.0'
+gem 'carrierwave', '0.11.2'
+gem 'mini_magick', '4.5.1'
+gem 'validates_formatting_of', '0.9.0'
+gem 'paper_trail', '4.2.0'
+gem 'delayed_job_active_record', '4.1.1'
+gem 'activejob', '4.2.5.1'
+gem 'i18n-tasks', '~> 0.8.6'
+gem 'social-share-button', '0.2.1'
+gem 'devise', '4.2.0'
+gem 'administrate', '0.2.2'
+gem 'bootstrap-sass', '3.3.7'
+gem 'sass', '3.4.22'
+gem 'font-awesome-sass', '4.6.2'
+gem 'bourbon', '4.2.7'
+gem 'jquery-turbolinks', '2.1.0'
+gem 'figaro', '1.1.1'
+gem 'travis', '1.8.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '9.0.5'
 end
 
 group :development do
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '2.3.0'
-  gem 'simple_form', '3.1.0.rc2'
-  gem 'redactor-rails', '0.5.0'
-  gem 'carrierwave', '0.11.2'
-  gem 'mini_magick', '4.5.1'
-  gem 'validates_formatting_of', '0.9.0'
-  gem 'paper_trail', '4.2.0'
-  gem 'delayed_job_active_record', '4.1.1'
-  gem 'activejob', '4.2.5.1'
-  gem 'i18n-tasks', '~> 0.8.6'
-  gem 'social-share-button', '0.2.1'
-  gem 'devise', '4.2.0'
-  gem 'administrate', '0.2.2'
-  gem 'bootstrap-sass', '3.3.7'
-  gem 'sass', '3.4.22'
-  gem 'font-awesome-sass', '4.6.2'
-  gem 'bourbon', '4.2.7'
-  gem 'jquery-turbolinks', '2.1.0'
-  gem 'figaro', '1.1.1'
-  gem 'travis', '1.8.2'
-  gem 'nokogiri', '1.6.8.1'
-  gem 'ffi', '1.9.14'
   gem 'sqlite3', '1.3.11'
-  #gem 'will_paginate', '3.1.0'
-  #gem 'rolify', '5.1.0'
-  #gem 'cancancan', '1.15.0'
-  #gem 'rails_admin', '0.8.1'
-  #gem 'payola-payments', '1.3.0'
-  #gem 'koudoku', '0.0.4'
 end
 
 group :production do
