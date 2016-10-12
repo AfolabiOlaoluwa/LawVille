@@ -8,13 +8,14 @@ require 'action_controller/railtie'
 require 'action_mailer/railtie'
 require 'action_view/railtie'
 require 'sprockets/railtie'
-require 'travis'
-require 'nokogiri'
-require 'carrierwave'
-require 'simple_form'
-require 'social-share-button'
-require 'redactor-rails'
-require 'devise'
+# Will I need all the required Gems here in production?
+#require 'travis'
+#require 'nokogiri'
+#require 'carrierwave'
+#require 'simple_form'
+#require 'social-share-button'
+#require 'redactor-rails'
+#require 'devise'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.

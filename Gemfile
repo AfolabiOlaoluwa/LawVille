@@ -32,7 +32,6 @@ gem 'sdoc', '0.4.1', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'web-console', '2.3.0'
 gem 'simple_form', '3.1.0.rc2'
 gem 'redactor-rails', '0.5.0'
 gem 'carrierwave', '0.11.2'
@@ -59,6 +58,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'web-console', '2.3.0'
   gem 'sqlite3', '1.3.11'
 end
 
