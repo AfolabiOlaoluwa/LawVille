@@ -16,7 +16,7 @@ $font-family-base: "Roboto Condensed", sans-serif;
   padding-top: 70px;
 }
 #myDiv {
-  background: url('lawvillecover.png') repeat 50% 0%;
+  background: image-url('lawvillecover.png') repeat 50% 0%;
   //background: #CF2424;
   //background-color: rgba(0, 0, 0, 0.8);
   margin: 0;
@@ -34,7 +34,7 @@ $font-family-base: "Roboto Condensed", sans-serif;
   height: 100%;
   width: 100%;
   position: relative;
-  background: url('lawvillebody.jpg') no-repeat center center fixed;
+  background: image-url('lawvillebody.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
