@@ -15,7 +15,8 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
-        <%= image_tag @lawyer.image.thumb.url :method => :get %>
+        <%= image_tag @lawyer.image.thumb.url.to_s %>
+        <%#= image_tag @lawyer.image.thumb.url %>
     </div>
 
     <div class="col-lg-9 panelme">
