@@ -17,6 +17,12 @@ class ImageUploader < CarrierWave::Uploader::Base
     #"public/uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
+  # Heroku has a read-only filesystem, so uploads must be stored on S3 and cannot be cached in the public directory.
+  # You can work around this by setting the cache_dir in your Uploader classes to the tmp directory:
+  def cache_dir
+    "#{Rails.root}/tmp/uploads"
+  end
+
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url
   #   # For Rails 3.1+ asset pipeline compatibility:
