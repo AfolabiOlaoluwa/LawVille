@@ -51,6 +51,7 @@ gem 'bourbon', '4.2.7'
 gem 'jquery-turbolinks', '2.1.0'
 gem 'figaro', '1.1.1'
 gem 'travis', '1.8.2'
+gem 'yajl-ruby', '1.2.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -13,7 +13,7 @@ class LawyersController < ApplicationController
   def show
     respond_to do |format|
       format.html # show.html.erb
-      format.json {render json: @lawyer }
+      format.json.pretty_print {render json: @lawyer }
       format.xml {render xml: @lawyer }
     end
   end
