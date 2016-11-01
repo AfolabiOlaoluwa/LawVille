@@ -5,7 +5,7 @@ json.( @lawyer, :id,
                 :website,
                 :twitter_link,
                 :linkedin_link,
-                #:professional_details,
+                :professional_details,
                 :created_at,
                 :updated_at
 )

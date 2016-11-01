@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -52,6 +52,8 @@ gem 'jquery-turbolinks', '2.1.0'
 gem 'figaro', '1.1.1'
 gem 'travis', '1.8.2'
 gem 'yajl-ruby', '1.2.1'
+gem 'fog', '1.38.0'
+#gem 'fog-aws', '0.12.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
