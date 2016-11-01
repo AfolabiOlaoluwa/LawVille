@@ -14,8 +14,6 @@ class LawyersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json.pretty_print_instance_variables{render json: @lawyer}
-      #format.xml {render xml: @lawyer }
-      #format.xml.pretty_print_instance_variables{render xml: @lawyer.sort } This returns no template view
     end
   end
 

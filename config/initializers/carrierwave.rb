@@ -1,5 +1,5 @@
 require 'carrierwave/orm/activerecord'
-
+=begin
 if Rails.env.production?
   CarrierWave.configure do |config|
     config.storage = :fog
@@ -18,7 +18,8 @@ if Rails.env.production?
     config.fog_attributes = { 'Cache-Control' => "max-age=#{365.day.to_i}" } # optional, defaults to {}
   end
 else
+=end
   CarrierWave.configure do |config|
     config.storage :file
   end
-end
+#end
