@@ -6,6 +6,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   # include CarrierWave::RMagick
   include CarrierWave::MiniMagick
 
+  # ife statement to handle both production and development
   if Rails.env.production?
     storage :dropbox
   else

@@ -1,7 +1,6 @@
 require 'carrierwave/orm/activerecord'
 
 CarrierWave.configure do |config|
-  #config.storage :dropbox
   config.dropbox_app_key = ENV['app_key']
   config.dropbox_app_secret = ENV['app_secret']
   config.dropbox_access_token = ENV['access_token']
