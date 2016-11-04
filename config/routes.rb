@@ -17,4 +17,11 @@ Rails.application.routes.draw do
   #get 'new' => 'lawyers#new', as: :new
 
   resources :categories, only: [:index, :create]
+
+  if Rails.env.production?
+      match '*path' => 'application#page_not_found', via: :all
+      match '*path' => 'application#server_error', via: :all
+  end
+
+
 end
