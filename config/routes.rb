@@ -18,10 +18,16 @@ Rails.application.routes.draw do
 
   resources :categories, only: [:index, :create]
 
-  if Rails.env.production?
-      match '*path' => 'application#page_not_found', via: :all
-      match '*path' => 'application#server_error', via: :all
-  end
+
+  get '/404' => 'application#not_found'
+  get '/500' => 'application#exception'
 
 
 end
+
+=begin
+if Rails.env.production?
+      match '*path' => 'application#page_not_found', via: :all
+      match '*path' => 'application#server_error', via: :all
+  end
+=end

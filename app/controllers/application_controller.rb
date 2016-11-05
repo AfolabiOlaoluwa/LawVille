@@ -3,6 +3,28 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+
+  def not_found
+    if env["REQUEST_PATH"] =~ /^\/api/
+      render :json => {:error => 'not-found'}.to_json, :status => 404
+    else
+      render 'shared/_not_found_error', layout: 'application', status: 404
+    end
+  end
+
+  def exception
+    if env["REQUEST_PATH"] =~ /^\/api/
+      render :json => {:error => 'internal-server-error'}.to_json, :status => 500
+    else
+      render 'shared/_internal_server_error', layout: 'application', status: 500
+    end
+  end
+
+
+end
+
+=begin
+
   def page_not_found
     respond_to do |format|
       format.html { render 'shared/_not_found_error', layout: 'application', status: 404 }
@@ -17,21 +39,4 @@ class ApplicationController < ActionController::Base
     end
   end
 
-
-end
-
-=begin
-  # custom 404
-  unless Rails.application.config.consider_all_requests_local
-    rescue_from ActiveRecord::RecordNotFound,
-                ActionController::RoutingError,
-                ActionController::UnknownController,
-                ActionController::ActionNotFound,
-                ActionController::MethodNotAllowed do |exception|
-
-      # Put loggers here, if desired.
-
-      #redirect_to four_oh_four_path
-    end
-  end
 =end
